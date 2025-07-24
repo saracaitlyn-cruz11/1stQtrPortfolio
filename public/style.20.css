@@ -1,0 +1,404 @@
+@font-face {
+    font-family: "nanum";
+    src: url(/other_elements/NanumPenScript-Regular.ttf );
+}
+
+@font-face{
+
+    font-family: "fastpen";
+    src: url(/other_elements/Fastpen-2mm.otf);
+}
+body {
+    background-image: url("https://i.pinimg.com/1200x/fb/f0/90/fbf090dc9c2587aeee9d25318f134949.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.paper-background 
+{
+    width: 610px ;
+    height: 500px ;
+    position: fixed;
+    right: 900px ;
+    top: 160px;
+    z-index: 1;
+}
+
+.tape {
+
+    transform: rotateY(180deg);
+    width:200px;
+    height: 300px;
+    position: fixed;
+    right: 1330px;
+    top: 100px;
+    z-index: 2;
+}
+
+.stars{
+    transform: rotate(50deg);
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    right: 870px;
+    top: 500px;
+    z-index: 3;
+}
+
+.corkboard
+{
+    transform: rotate(180degs);
+    width: 950px;
+    height: 700px;
+    position: fixed;
+    right: -30px;
+    top: 10px;
+    z-index: 2;
+}
+
+.gilmore-girls 
+{
+    transform: rotate(10deg);
+    width: 180px;
+    height: 150px;
+    position: fixed;
+    right: 170px;
+    top: 100px;
+    z-index: 5;
+}
+.himym
+{
+    width: 180px;
+    height: 150px;
+    position: fixed;
+    right: 320px;
+    top: 100px;
+    z-index: 6;
+}
+.friends
+{
+    transform: rotate(-5deg);
+    width: 180px;
+    height: 150px;
+    position: fixed;
+    right: 480px;
+    top: 120px;
+    z-index: 7
+}
+.tbbt
+{
+    transform: rotate(6deg);
+    width: 180px;
+    height: 150px;
+    position: fixed;
+    right: 620px;
+    top: 100px;
+    z-index: 5;
+}
+
+.tsotl
+{
+    transform: rotate(-4deg);
+    width: 135px;
+    height: 160px;
+    position: fixed;
+    right: 280px;
+    top: 310px;
+    z-index: 5;
+}
+
+.amelie
+{
+    width: 135px;
+    height: 160px;
+    position: fixed;
+    right: 390px;
+    top: 300px;
+    z-index: 4;
+}
+
+.rfad
+{
+    transform: rotate(8deg);
+    width: 135px;
+    height: 160px;
+    position: fixed;
+    right: 405px;
+    top: 440px;
+    z-index: 3;
+}
+
+.esotsm
+{
+    transform: rotate (-2deg);
+    width: 135px;
+    height: 160px;
+    position: fixed;
+    right: 280px;
+    top: 460px;
+    z-index: 4;
+}
+
+.musicals
+{
+    transform: rotate(5deg);
+    width: 180px;
+    height: 400px;
+    position: fixed;
+    right: 70px;
+    top: 200px;
+    z-index: 10;
+}
+
+.smiski1
+{
+    width: 160px;
+    height: 170px;
+    position: fixed;
+    right: 703px;
+    top: 507px;
+    z-index: 15;
+}
+
+.snoopy
+{
+    width: 250px;
+    height: 260px;
+    position: fixed;
+    left: -50px;
+    bottom: -20px;
+    z-index: 15;
+
+}
+
+.others
+{
+    width: 250px;
+    height: 290px;
+    position: fixed;
+    right: 555px;
+    top: 290px;
+    z-index: 15;
+}
+
+
+
+.pin
+{
+    width: 30px;
+    height: 40px;
+    position: fixed;
+    right: 150px;
+    top: 100px;
+    z-index: 15;
+}
+
+.fabric_snoopy
+{
+    width: 90px;
+    height: 100px;
+    position: fixed;
+    right: 232px;
+    top: 548px;
+    z-index: 15;
+}
+
+.always_sleepy
+{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    right: 460px;
+    top: 400px;
+    z-index: 30;
+}
+
+.stamp
+{
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    right: 740px;
+    top: 290px;
+    z-index: 100;
+}
+
+.personal-header
+{
+    transform: rotate(5deg);
+    width: 350px;
+    height: 100px;
+    position: fixed;
+    right: 900px;
+    top: 170px;
+    z-index: 100;
+}
+
+.likes-header
+{
+    transform: rotate(6deg);
+    width: 400px;
+    height: 100px;
+    position: fixed;
+    right: -86px;
+    top: 15px;
+    z-index: 100;
+}
+.header
+{
+    transform: rotate(-3deg);
+    width: 390px;
+    height: 200px;
+    position: fixed;
+    right: 1100px;
+    top: -10px;
+    z-index: 100;
+}
+
+
+.silverstars
+{
+    transform: rotate(40deg);
+    width: 60px;
+    height: 80px;
+    position: fixed;
+    right: 760px;
+    top: 200px;
+    z-index: 15;
+}
+
+.longestgoodbye
+{
+    transform: rotate(-5deg);
+    width: 330px;
+    height: 230px;
+    position: fixed;
+    right: 800px;
+    top: 500px;
+    z-index: 15;
+}
+
+.bow
+{
+    width: 350px;
+    height: 400px;
+    position: fixed;
+    right: -62px;
+    top: 115px;
+    z-index: 16;
+}
+
+.musicals_label
+{
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    right: 100px;
+    top: 150px;
+    z-index: 15;
+}   
+
+.tvshows_label
+{
+     width: 275px;
+    height: 400px;
+    position: fixed;
+    right: 565px;
+    top: -75px;
+    z-index: 10;
+}
+.movies_label
+{
+    transform: rotate(3deg);
+    width: 175px;
+    height: 175px;
+    position: fixed;
+    right: 230px;
+    top: 220px;
+    z-index: 15;
+}
+
+.personal {
+
+
+    color: black;
+    font-size: 25px;
+    position: fixed;
+    right: 890px;
+    top: 300px;
+    font-family: "nanum";
+    z-index: 4;
+
+    th {
+    width: 100px;
+    text-align: left;
+
+}
+
+td{
+    width: 450px;
+    text-align: left;
+}
+}
+
+.likes
+{
+
+
+    color: black;
+    font-size: 15px;
+    position: fixed;
+    right: 578px;
+    top: 355px;
+    font-family: "nanum";
+    z-index: 20;
+
+    th {
+    vertical-align: top;
+    width: 60px;
+    text-align: left;
+
+}
+
+td{
+    width: 100px;
+    text-align: left;
+}
+}
+
+h6
+{
+    color: black;
+    font-size: 30px;
+    position: fixed;
+    right: 600px;
+    top: 250px;
+    font-family: "fastpen";
+    z-index: 21;
+}
+
+h5
+{
+    transform: rotate(5deg);
+    color: navy;
+    font-size: 40px;
+    position: fixed;
+    right: 950px;
+    top: 130px;
+    font-family: "fastpen";
+    z-index: 101;
+}
+
+h7
+{
+    transform: rotate(5deg);
+    color: navy;
+    font-size: 40px;
+    position: fixed;
+    right: 63px;
+    top: 40px;
+    font-family: "fastpen";
+    z-index: 1000;
+}
