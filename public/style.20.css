@@ -57,10 +57,10 @@ body {
 .corkboard
 {
     transform: rotate(180degs);
-    width: 950px;
-    height: 700px;
+    width: 1000px;
+    height: 750px;
     position: fixed;
-    right: -30px;
+    right: -55px;
     top: 10px;
     z-index: 2;
 }
@@ -68,37 +68,37 @@ body {
 .gilmore-girls 
 {
     transform: rotate(10deg);
-    width: 180px;
-    height: 150px;
+    width: 200px;
+    height: 170px;
     position: fixed;
-    right: 170px;
+    right: 160px;
     top: 100px;
     z-index: 5;
 }
 .himym
 {
-    width: 180px;
-    height: 150px;
+    width: 200px;
+    height: 170px;
     position: fixed;
-    right: 320px;
+    right: 310px;
     top: 100px;
     z-index: 6;
 }
 .friends
 {
     transform: rotate(-5deg);
-    width: 180px;
-    height: 150px;
+    width: 200px;
+    height: 170px;
     position: fixed;
-    right: 480px;
+    right: 487px;
     top: 120px;
     z-index: 7
 }
 .tbbt
 {
     transform: rotate(6deg);
-    width: 180px;
-    height: 150px;
+    width: 200px;
+    height: 170px;
     position: fixed;
     right: 620px;
     top: 100px;
@@ -108,8 +108,8 @@ body {
 .tsotl
 {
     transform: rotate(-4deg);
-    width: 135px;
-    height: 160px;
+    width: 145px;
+    height: 170px;
     position: fixed;
     right: 280px;
     top: 310px;
@@ -118,8 +118,8 @@ body {
 
 .amelie
 {
-    width: 135px;
-    height: 160px;
+    width: 145px;
+    height: 170px;
     position: fixed;
     right: 390px;
     top: 300px;
@@ -129,8 +129,8 @@ body {
 .rfad
 {
     transform: rotate(8deg);
-    width: 135px;
-    height: 160px;
+    width: 145px;
+    height: 170px;
     position: fixed;
     right: 405px;
     top: 440px;
@@ -140,22 +140,22 @@ body {
 .esotsm
 {
     transform: rotate (-2deg);
-    width: 135px;
-    height: 160px;
+    width: 145px;
+    height: 170px;
     position: fixed;
     right: 280px;
-    top: 460px;
+    top: 470px;
     z-index: 4;
 }
 
 .musicals
 {
     transform: rotate(5deg);
-    width: 180px;
-    height: 400px;
+    width: 190px;
+    height: 420px;
     position: fixed;
-    right: 70px;
-    top: 200px;
+    right: 60px;
+    top: 242px;
     z-index: 10;
 }
 
@@ -164,8 +164,8 @@ body {
     width: 160px;
     height: 170px;
     position: fixed;
-    right: 703px;
-    top: 507px;
+    right: 720px;
+    top: 553px;
     z-index: 15;
 }
 
@@ -181,11 +181,11 @@ body {
 
 .others
 {
-    width: 250px;
-    height: 290px;
+    width: 270px;
+    height: 310px;
     position: fixed;
     right: 555px;
-    top: 290px;
+    top: 295px;
     z-index: 15;
 }
 
@@ -203,11 +203,11 @@ body {
 
 .fabric_snoopy
 {
-    width: 90px;
-    height: 100px;
+    width: 100px;
+    height: 110px;
     position: fixed;
-    right: 232px;
-    top: 548px;
+    right: 210px;
+    top: 583px;
     z-index: 15;
 }
 
@@ -216,17 +216,17 @@ body {
     width: 100px;
     height: 100px;
     position: fixed;
-    right: 460px;
+    right: 474px;
     top: 400px;
     z-index: 30;
 }
 
 .stamp
 {
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
     position: fixed;
-    right: 740px;
+    right: 745px;
     top: 290px;
     z-index: 100;
 }
@@ -291,28 +291,28 @@ body {
     width: 350px;
     height: 400px;
     position: fixed;
-    right: -62px;
-    top: 115px;
+    right: -74px;
+    top: 166px;
     z-index: 16;
 }
 
 .musicals_label
 {
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 160px;
     position: fixed;
-    right: 100px;
-    top: 150px;
+    right: 82px;
+    top: 190px;
     z-index: 15;
 }   
 
 .tvshows_label
 {
-     width: 275px;
-    height: 400px;
+    width: 300px;
+    height: 425px;
     position: fixed;
-    right: 565px;
-    top: -75px;
+    right: 563px;
+    top: -80px;
     z-index: 10;
 }
 .movies_label
@@ -354,9 +354,9 @@ td{
 
 
     color: black;
-    font-size: 15px;
+    font-size: 16px;
     position: fixed;
-    right: 578px;
+    right: 582px;
     top: 355px;
     font-family: "Nanum Pen Script";
     z-index: 20;
@@ -379,7 +379,7 @@ h6
     color: black;
     font-size: 30px;
     position: fixed;
-    right: 620px;
+    right: 630px;
     top: 250px;
     font-family: "Ms Madi";
     z-index: 21;
