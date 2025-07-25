@@ -1,14 +1,20 @@
-@font-face {
-    font-family: "nanum";
-    src: url(/other_elements/NanumPenScript-Regular.ttf );
+.nanum-pen-script-regular {
+  font-family: "Nanum Pen Script", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
-@font-face{
-
-    font-family: "fastpen";
-    src: url(/other_elements/Fastpen-2mm.otf);
+.ms-madi-regular {
+  font-family: "Ms Madi", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
+
+
+
+
 body {
+    background-color: white;
     background-image: url("https://i.pinimg.com/1200x/fb/f0/90/fbf090dc9c2587aeee9d25318f134949.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -29,6 +35,7 @@ body {
 .tape {
 
     transform: rotateY(180deg);
+    mix-blend-mode: darken;
     width:200px;
     height: 300px;
     position: fixed;
@@ -170,7 +177,6 @@ body {
     left: -50px;
     bottom: -20px;
     z-index: 15;
-
 }
 
 .others
@@ -328,7 +334,7 @@ body {
     position: fixed;
     right: 890px;
     top: 300px;
-    font-family: "nanum";
+    font-family: "Nanum Pen Script";
     z-index: 4;
 
     th {
@@ -352,7 +358,7 @@ td{
     position: fixed;
     right: 578px;
     top: 355px;
-    font-family: "nanum";
+    font-family: "Nanum Pen Script";
     z-index: 20;
 
     th {
@@ -373,9 +379,9 @@ h6
     color: black;
     font-size: 30px;
     position: fixed;
-    right: 600px;
+    right: 620px;
     top: 250px;
-    font-family: "fastpen";
+    font-family: "Ms Madi";
     z-index: 21;
 }
 
@@ -385,20 +391,19 @@ h5
     color: navy;
     font-size: 40px;
     position: fixed;
-    right: 950px;
+    right: 960px;
     top: 130px;
-    font-family: "fastpen";
+    font-family: "Ms Madi";
     z-index: 101;
 }
 
-h7
-{
+h2 {
     transform: rotate(5deg);
     color: navy;
     font-size: 40px;
     position: fixed;
-    right: 63px;
-    top: 40px;
-    font-family: "fastpen";
+    right: 80px;
+    top: 10px;
+    font-family: "Ms Madi";
     z-index: 1000;
 }
