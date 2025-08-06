@@ -1,409 +1,733 @@
 .nanum-pen-script-regular {
-  font-family: "Nanum Pen Script", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.ms-madi-regular {
-  font-family: "Ms Madi", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-
-
-
-body {
-    background-color: white;
-    background-image: url("https://i.pinimg.com/1200x/fb/f0/90/fbf090dc9c2587aeee9d25318f134949.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-}
-
-.paper-background 
-{
-    width: 610px ;
-    height: 500px ;
-    position: fixed;
-    right: 900px ;
-    top: 160px;
+    font-family: "Nanum Pen Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ms-madi-regular {
+    font-family: "Ms Madi", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+  
+  
+  body {
+      background-color: white;
+      background-image: url("https://i.pinimg.com/1200x/fb/f0/90/fbf090dc9c2587aeee9d25318f134949.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+  }
+  
+  .nanum-pen-script-regular {
+    font-family: "Nanum Pen Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    }
+    
+    .ms-madi-regular {
+    font-family: "Ms Madi", cursive;
+    font-weight: 400;
+    font-style: normal;
+    }
+    
+    .paper-background {
+    width: 40.13vw;
+    height: 76.56vh;
+    position: absolute;
+    right: 58.25vw;
+    top: 17.78vh;
     z-index: 1;
-}
-
-.tape {
-
+    }
+    
+    .tape {
     transform: rotateY(180deg);
     mix-blend-mode: darken;
-    width:200px;
-    height: 300px;
-    position: fixed;
-    right: 1330px;
-    top: 100px;
+    width: 20.5vw;
+    height: 36.33vh;
+    position: absolute;
+    right: 80vw;
+    top: 15.11vh;
     z-index: 2;
-}
-
-.stars{
+    }
+    
+    .stars {
     transform: rotate(50deg);
-    width: 150px;
-    height: 150px;
-    position: fixed;
-    right: 870px;
-    top: 500px;
-    z-index: 3;
-}
-
-.corkboard
-{
-    transform: rotate(180degs);
-    width: 1000px;
-    height: 750px;
-    position: fixed;
-    right: -55px;
-    top: 10px;
+    width: 9.38vw;
+    height: 16.67vh;
+    position: absolute;
+    right: 52.7vw;
+    top: 76.56vh;
+    z-index: 25;
+    }
+    
+    .corkboard {
+    transform: rotate(180deg);
+    width: 62.5vw;
+    height: 95.33vh;
+    position: absolute;
+    right: -3.44vw;
+    top: 1.11vh;
     z-index: 2;
-}
-
-.gilmore-girls 
-{
+    }
+    
+    .gilmore-girls {
     transform: rotate(10deg);
-    width: 200px;
-    height: 170px;
-    position: fixed;
-    right: 160px;
-    top: 100px;
+    width: 12.5vw;
+    height: 18.89vh;
+    position: absolute;
+    right: 10vw;
+    top: 11.11vh;
     z-index: 5;
-}
-.himym
-{
-    width: 200px;
-    height: 170px;
-    position: fixed;
-    right: 310px;
-    top: 100px;
+    }
+    
+    .himym {
+    width: 12.5vw;
+    height: 18.89vh;
+    position: absolute;
+    right: 19.38vw;
+    top: 11.11vh;
     z-index: 6;
-}
-.friends
-{
+    }
+    
+    .friends {
     transform: rotate(-5deg);
-    width: 200px;
-    height: 170px;
-    position: fixed;
-    right: 487px;
-    top: 120px;
-    z-index: 7
-}
-.tbbt
-{
+    width: 12.5vw;
+    height: 18.89vh;
+    position: absolute;
+    right: 30.44vw;
+    top: 13.33vh;
+    z-index: 7;
+    }
+    
+    .tbbt {
     transform: rotate(6deg);
-    width: 200px;
-    height: 170px;
-    position: fixed;
-    right: 620px;
-    top: 100px;
+    width: 12.5vw;
+    height: 18.89vh;
+    position: absolute;
+    right: 38.75vw;
+    top: 11.11vh;
     z-index: 5;
-}
-
-.tsotl
-{
+    }
+    
+    .tsotl {
     transform: rotate(-4deg);
-    width: 145px;
-    height: 170px;
-    position: fixed;
-    right: 280px;
-    top: 310px;
+    width: 9.06vw;
+    height: 18.89vh;
+    position: absolute;
+    right: 17.5vw;
+    top: 34.44vh;
     z-index: 5;
-}
-
-.amelie
-{
-    width: 145px;
-    height: 170px;
-    position: fixed;
-    right: 390px;
-    top: 300px;
+    }
+    
+    .amelie {
+    width: 9.06vw;
+    height: 18.89vh;
+    position: absolute;
+    right: 24.38vw;
+    top: 33.33vh;
     z-index: 4;
-}
-
-.rfad
-{
+    }
+    
+    .rfad {
     transform: rotate(8deg);
-    width: 145px;
-    height: 170px;
-    position: fixed;
-    right: 405px;
-    top: 440px;
+    width: 9.06vw;
+    height: 18.89vh;
+    position: absolute;
+    right: 25.31vw;
+    top: 48.89vh;
     z-index: 3;
-}
-
-.esotsm
-{
-    transform: rotate (-2deg);
-    width: 145px;
-    height: 170px;
-    position: fixed;
-    right: 280px;
-    top: 470px;
+    }
+    
+    .esotsm {
+    transform: rotate(-2deg);
+    width: 9.06vw;
+    height: 18.89vh;
+    position: absolute;
+    right: 17.5vw;
+    top: 52.22vh;
     z-index: 4;
-}
-
-.musicals
-{
+    }
+    
+    .musicals {
     transform: rotate(5deg);
-    width: 190px;
-    height: 420px;
-    position: fixed;
-    right: 60px;
-    top: 242px;
+    width: 11.88vw;
+    height: 46.67vh;
+    position: absolute;
+    right: 3.75vw;
+    top: 26.89vh;
     z-index: 10;
-}
-
-.smiski1
-{
-    width: 160px;
-    height: 170px;
-    position: fixed;
-    right: 720px;
-    top: 553px;
+    }
+    
+    .smiski1 {
+    width: 10vw;
+    height: 18.89vh;
+    position: absolute;
+    right: 44.8vw;
+    top: 74.5vh;
     z-index: 15;
-}
-
-.snoopy
-{
-    width: 250px;
-    height: 260px;
-    position: fixed;
-    left: -50px;
-    bottom: -20px;
+    }
+    
+    .snoopy {
+    width: 15.63vw;
+    height: 28.89vh;
+    position: absolute;
+    left: -3.13vw;
+    bottom: -2.22vh;
     z-index: 15;
-}
-
-.others
-{
-    width: 270px;
-    height: 310px;
-    position: fixed;
-    right: 555px;
-    top: 295px;
+    }
+    
+    .others {
+    width: 18.88vw;
+    height: 48.44vh;
+    position: absolute;
+    right: 33.69vw;
+    top: 32.78vh;
+    z-index: 13;
+    }
+    
+    .pin {
+    width: 1.88vw;
+    height: 4.44vh;
+    position: absolute;
+    right: 9.38vw;
+    top: 11.11vh;
     z-index: 15;
-}
-
-
-
-.pin
-{
-    width: 30px;
-    height: 40px;
-    position: fixed;
-    right: 150px;
-    top: 100px;
+    }
+    
+    .fabric_snoopy {
+    width: 6.25vw;
+    height: 12.22vh;
+    position: absolute;
+    right: 13.13vw;
+    top: 64.78vh;
     z-index: 15;
-}
-
-.fabric_snoopy
-{
-    width: 100px;
-    height: 110px;
-    position: fixed;
-    right: 210px;
-    top: 583px;
-    z-index: 15;
-}
-
-.always_sleepy
-{
-    width: 100px;
-    height: 100px;
-    position: fixed;
-    right: 474px;
-    top: 400px;
+    }
+    
+    .always_sleepy {
+    width: 6.25vw;
+    height: 11.11vh;
+    position: absolute;
+    right: 29.63vw;
+    top: 44.44vh;
     z-index: 30;
-}
-
-.stamp
-{
-    width: 90px;
-    height: 90px;
-    position: fixed;
-    right: 745px;
-    top: 290px;
+    }
+    
+    .stamp {
+    width: 5.63vw;
+    height: 10vh;
+    position: absolute;
+    right: 46.56vw;
+    top: 32.22vh;
     z-index: 100;
-}
-
-.personal-header
-{
+    }
+    
+    .personal-header {
     transform: rotate(5deg);
-    width: 350px;
-    height: 100px;
-    position: fixed;
-    right: 900px;
-    top: 170px;
+    width: 21.88vw;
+    height: 11.11vh;
+    position: absolute;
+    right: 56.25vw;
+    top: 18.89vh;
     z-index: 100;
-}
-
-.likes-header
-{
+    }
+    
+    .likes-header {
     transform: rotate(6deg);
-    width: 400px;
-    height: 100px;
-    position: fixed;
-    right: -86px;
-    top: 15px;
+    width: 25vw;
+    height: 11.11vh;
+    position: absolute;
+    right: -5.38vw;
+    top: 1.67vh;
     z-index: 100;
-}
-.header
-{
+    }
+    
+    .header {
     transform: rotate(-3deg);
-    width: 390px;
-    height: 200px;
-    position: fixed;
-    right: 1100px;
-    top: -10px;
+    width: 24.38vw;
+    height: 22.22vh;
+    position: absolute;
+    right: 68.75vw;
+    top: -1.11vh;
     z-index: 100;
-}
-
-
-.silverstars
-{
+    }
+    
+    .silverstars {
     transform: rotate(40deg);
-    width: 60px;
-    height: 80px;
-    position: fixed;
-    right: 780px;
-    top: 210px;
+    width: 3.75vw;
+    height: 8.89vh;
+    position: absolute;
+    right: 48.75vw;
+    top: 23.33vh;
     z-index: 15;
-}
-
-.longestgoodbye
-{
+    }
+    
+    .longestgoodbye {
     transform: rotate(-5deg);
-    width: 330px;
-    height: 230px;
-    position: fixed;
-    right: 800px;
-    top: 500px;
+    width: 20.63vw;
+    height: 26.56vh;
+    position: absolute;
+    right: 55vw;
+    top: 68.56vh;
     z-index: 15;
-}
-
-.bow
-{
-    width: 350px;
-    height: 400px;
-    position: fixed;
-    right: -74px;
-    top: 166px;
+    }
+    
+    .bow {
+    width: 21.88vw;
+    height: 44.44vh;
+    position: absolute;
+    right: -4.63vw;
+    top: 18.44vh;
     z-index: 16;
-}
-
-.musicals_label
-{
-    width: 160px;
-    height: 160px;
-    position: fixed;
-    right: 82px;
-    top: 190px;
+    }
+    
+    .musicals_label {
+    width: 10vw;
+    height: 17.78vh;
+    position: absolute;
+    right: 5.13vw;
+    top: 21.11vh;
     z-index: 15;
-}   
-
-.tvshows_label
-{
-    width: 300px;
-    height: 425px;
-    position: fixed;
-    right: 563px;
-    top: -80px;
+    }
+    
+    .tvshows_label {
+    width: 18.75vw;
+    height: 47.22vh;
+    position: absolute;
+    right: 35.19vw;
+    top: -8.89vh;
     z-index: 10;
-}
-.movies_label
-{
+    }
+    
+    .movies_label {
     transform: rotate(3deg);
-    width: 175px;
-    height: 175px;
-    position: fixed;
-    right: 230px;
-    top: 220px;
+    width: 10.94vw;
+    height: 19.44vh;
+    position: absolute;
+    right: 14.38vw;
+    top: 24.44vh;
     z-index: 15;
-}
-
-.personal {
-
-
+    }
+    
+    .personal {
     color: black;
-    font-size: 25px;
-    position: fixed;
-    right: 890px;
-    top: 300px;
+    font-size: 1.56vw;
+    position: absolute;
+    right: 58.4vw;
+    top: 43vh;
     font-family: "Nanum Pen Script";
     z-index: 4;
-
-    th {
-    width: 100px;
-    text-align: left;
-
-}
-
-td{
-    width: 450px;
-    text-align: left;
-}
-}
-
-.likes
-{
-
-
+    }
+    
+    .likes {
     color: black;
-    font-size: 16px;
-    position: fixed;
-    right: 582px;
-    top: 355px;
+    font-size: 1.3vw;
+    position: absolute;
+    right: 34.38vw;
+    top: 43.44vh;
     font-family: "Nanum Pen Script";
     z-index: 20;
-
-    th {
-    vertical-align: top;
-    width: 60px;
-    text-align: left;
-
-}
-
-td{
-    width: 100px;
-    text-align: left;
-}
-}
-
-h6
-{
+    }
+    
+    h6 {
     color: black;
-    font-size: 30px;
-    position: fixed;
-    right: 630px;
-    top: 250px;
+    font-size: 1.88vw;
+    position: absolute;
+    right: 39.38vw;
+    top: 27.78vh;
     font-family: "Ms Madi";
     z-index: 21;
-}
-
-h5
-{
+    }
+    
+    h5 {
     transform: rotate(5deg);
     color: navy;
-    font-size: 40px;
-    position: fixed;
-    right: 960px;
-    top: 130px;
+    font-size: 2.5vw;
+    position: absolute;
+    right: 60vw;
+    top: 14.44vh;
     font-family: "Ms Madi";
     z-index: 101;
-}
-
-h2 {
+    }
+    
+    h2 {
     transform: rotate(5deg);
     color: navy;
-    font-size: 40px;
-    position: fixed;
-    right: 80px;
-    top: 10px;
+    font-size: 2.5vw;
+    position: absolute;
+    right: 5vw;
+    top: 0.56vh;
     font-family: "Ms Madi";
     z-index: 1000;
-}
+    }
+    
+
+.nanum-pen-script-regular {
+    font-family: "Nanum Pen Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ms-madi-regular {
+    font-family: "Ms Madi", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+  
+  
+  body {
+      background-color: white;
+      background-image: url("https://i.pinimg.com/1200x/fb/f0/90/fbf090dc9c2587aeee9d25318f134949.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+  }
+  
+  .nanum-pen-script-regular {
+    font-family: "Nanum Pen Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    }
+    
+    .ms-madi-regular {
+    font-family: "Ms Madi", cursive;
+    font-weight: 400;
+    font-style: normal;
+    }
+    
+    .paper-background {
+    width: 40.13vw;
+    height: 76.56vh;
+    position: absolute;
+    right: 58.25vw;
+    top: 17.78vh;
+    z-index: 1;
+    }
+    
+    .tape {
+    transform: rotateY(180deg);
+    mix-blend-mode: darken;
+    width: 20.5vw;
+    height: 36.33vh;
+    position: absolute;
+    right: 80vw;
+    top: 15.11vh;
+    z-index: 2;
+    }
+    
+    .stars {
+    transform: rotate(50deg);
+    width: 9.38vw;
+    height: 16.67vh;
+    position: absolute;
+    right: 52.7vw;
+    top: 76.56vh;
+    z-index: 25;
+    }
+    
+    .corkboard {
+    transform: rotate(180deg);
+    width: 62.5vw;
+    height: 95.33vh;
+    position: absolute;
+    right: -3.44vw;
+    top: 1.11vh;
+    z-index: 2;
+    }
+    
+    .gilmore-girls {
+    transform: rotate(10deg);
+    width: 12.5vw;
+    height: 18.89vh;
+    position: absolute;
+    right: 10vw;
+    top: 11.11vh;
+    z-index: 5;
+    }
+    
+    .himym {
+    width: 12.5vw;
+    height: 18.89vh;
+    position: absolute;
+    right: 19.38vw;
+    top: 11.11vh;
+    z-index: 6;
+    }
+    
+    .friends {
+    transform: rotate(-5deg);
+    width: 12.5vw;
+    height: 18.89vh;
+    position: absolute;
+    right: 30.44vw;
+    top: 13.33vh;
+    z-index: 7;
+    }
+    
+    .tbbt {
+    transform: rotate(6deg);
+    width: 12.5vw;
+    height: 18.89vh;
+    position: absolute;
+    right: 38.75vw;
+    top: 11.11vh;
+    z-index: 5;
+    }
+    
+    .tsotl {
+    transform: rotate(-4deg);
+    width: 9.06vw;
+    height: 18.89vh;
+    position: absolute;
+    right: 17.5vw;
+    top: 34.44vh;
+    z-index: 5;
+    }
+    
+    .amelie {
+    width: 9.06vw;
+    height: 18.89vh;
+    position: absolute;
+    right: 24.38vw;
+    top: 33.33vh;
+    z-index: 4;
+    }
+    
+    .rfad {
+    transform: rotate(8deg);
+    width: 9.06vw;
+    height: 18.89vh;
+    position: absolute;
+    right: 25.31vw;
+    top: 48.89vh;
+    z-index: 3;
+    }
+    
+    .esotsm {
+    transform: rotate(-2deg);
+    width: 9.06vw;
+    height: 18.89vh;
+    position: absolute;
+    right: 17.5vw;
+    top: 52.22vh;
+    z-index: 4;
+    }
+    
+    .musicals {
+    transform: rotate(5deg);
+    width: 11.88vw;
+    height: 46.67vh;
+    position: absolute;
+    right: 3.75vw;
+    top: 26.89vh;
+    z-index: 10;
+    }
+    
+    .smiski1 {
+    width: 10vw;
+    height: 18.89vh;
+    position: absolute;
+    right: 44.8vw;
+    top: 74.5vh;
+    z-index: 15;
+    }
+    
+    .snoopy {
+    width: 15.63vw;
+    height: 28.89vh;
+    position: absolute;
+    left: -3.13vw;
+    bottom: -2.22vh;
+    z-index: 15;
+    }
+    
+    .others {
+    width: 18.88vw;
+    height: 48.44vh;
+    position: absolute;
+    right: 33.69vw;
+    top: 32.78vh;
+    z-index: 13;
+    }
+    
+    .pin {
+    width: 1.88vw;
+    height: 4.44vh;
+    position: absolute;
+    right: 9.38vw;
+    top: 11.11vh;
+    z-index: 15;
+    }
+    
+    .fabric_snoopy {
+    width: 6.25vw;
+    height: 12.22vh;
+    position: absolute;
+    right: 13.13vw;
+    top: 64.78vh;
+    z-index: 15;
+    }
+    
+    .always_sleepy {
+    width: 6.25vw;
+    height: 11.11vh;
+    position: absolute;
+    right: 29.63vw;
+    top: 44.44vh;
+    z-index: 30;
+    }
+    
+    .stamp {
+    width: 5.63vw;
+    height: 10vh;
+    position: absolute;
+    right: 46.56vw;
+    top: 32.22vh;
+    z-index: 100;
+    }
+    
+    .personal-header {
+    transform: rotate(5deg);
+    width: 21.88vw;
+    height: 11.11vh;
+    position: absolute;
+    right: 56.25vw;
+    top: 18.89vh;
+    z-index: 100;
+    }
+    
+    .likes-header {
+    transform: rotate(6deg);
+    width: 25vw;
+    height: 11.11vh;
+    position: absolute;
+    right: -5.38vw;
+    top: 1.67vh;
+    z-index: 100;
+    }
+    
+    .header {
+    transform: rotate(-3deg);
+    width: 24.38vw;
+    height: 22.22vh;
+    position: absolute;
+    right: 68.75vw;
+    top: -1.11vh;
+    z-index: 100;
+    }
+    
+    .silverstars {
+    transform: rotate(40deg);
+    width: 3.75vw;
+    height: 8.89vh;
+    position: absolute;
+    right: 48.75vw;
+    top: 23.33vh;
+    z-index: 15;
+    }
+    
+    .longestgoodbye {
+    transform: rotate(-5deg);
+    width: 20.63vw;
+    height: 26.56vh;
+    position: absolute;
+    right: 55vw;
+    top: 68.56vh;
+    z-index: 15;
+    }
+    
+    .bow {
+    width: 21.88vw;
+    height: 44.44vh;
+    position: absolute;
+    right: -4.63vw;
+    top: 18.44vh;
+    z-index: 16;
+    }
+    
+    .musicals_label {
+    width: 10vw;
+    height: 17.78vh;
+    position: absolute;
+    right: 5.13vw;
+    top: 21.11vh;
+    z-index: 15;
+    }
+    
+    .tvshows_label {
+    width: 18.75vw;
+    height: 47.22vh;
+    position: absolute;
+    right: 35.19vw;
+    top: -8.89vh;
+    z-index: 10;
+    }
+    
+    .movies_label {
+    transform: rotate(3deg);
+    width: 10.94vw;
+    height: 19.44vh;
+    position: absolute;
+    right: 14.38vw;
+    top: 24.44vh;
+    z-index: 15;
+    }
+    
+    .personal {
+    color: black;
+    font-size: 1.56vw;
+    position: absolute;
+    right: 58.4vw;
+    top: 43vh;
+    font-family: "Nanum Pen Script";
+    z-index: 4;
+    }
+    
+    .likes {
+    color: black;
+    font-size: 1.3vw;
+    position: absolute;
+    right: 34.38vw;
+    top: 43.44vh;
+    font-family: "Nanum Pen Script";
+    z-index: 20;
+    }
+    
+    h6 {
+    color: black;
+    font-size: 1.88vw;
+    position: absolute;
+    right: 39.38vw;
+    top: 27.78vh;
+    font-family: "Ms Madi";
+    z-index: 21;
+    }
+    
+    h5 {
+    transform: rotate(5deg);
+    color: navy;
+    font-size: 2.5vw;
+    position: absolute;
+    right: 60vw;
+    top: 14.44vh;
+    font-family: "Ms Madi";
+    z-index: 101;
+    }
+    
+    h2 {
+    transform: rotate(5deg);
+    color: navy;
+    font-size: 2.5vw;
+    position: absolute;
+    right: 5vw;
+    top: 0.56vh;
+    font-family: "Ms Madi";
+    z-index: 1000;
+    }
+    
