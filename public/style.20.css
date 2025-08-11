@@ -203,7 +203,7 @@
     height: 12.22vh;
     position: absolute;
     right: 13.13vw;
-    top: 64.78vh;
+    top: 80.78vh;
     z-index: 15;
     }
     
@@ -522,10 +522,10 @@
     .musicals {
     transform: rotate(5deg);
     width: 11.88vw;
-    height: 46.67vh;
+    height: 49.67vh;
     position: absolute;
     right: 3.75vw;
-    top: 26.89vh;
+    top: 38.89vh;
     z-index: 10;
     }
     
@@ -570,7 +570,7 @@
     height: 12.22vh;
     position: absolute;
     right: 13.13vw;
-    top: 64.78vh;
+    top:77.78vh;
     z-index: 15;
     }
     
@@ -647,7 +647,7 @@
     height: 44.44vh;
     position: absolute;
     right: -4.63vw;
-    top: 18.44vh;
+    top: 50vh;
     z-index: 16;
     }
     
@@ -683,7 +683,7 @@
     color: black;
     font-size: 1.56vw;
     position: absolute;
-    right: 58.4vw;
+    right: 59.4vw;
     top: 43vh;
     font-family: "Nanum Pen Script";
     z-index: 4;
@@ -691,9 +691,9 @@
     
     .likes {
     color: black;
-    font-size: 1.3vw;
+    font-size: 1.2vw;
     position: absolute;
-    right: 34.38vw;
+    right: 35.38vw;
     top: 43.44vh;
     font-family: "Nanum Pen Script";
     z-index: 20;
