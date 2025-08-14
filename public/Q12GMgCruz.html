@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h2> Q1 3rd Graded Exercise submitted by Cait Cruz of 9 Magnesium</h2>
+    
+    <label> Meal Price:
+        <input id = "mealprice" />
+    </label> </br/>
+    <label> Tip: 
+        <input id = "tip" />
+    </label> </br/>
+    <label> Service Charge: 
+        <input id = "servicecharge" />
+    </label> </br/>
+    <br>
+
+
+    <button onclick="totalMeal()"> Accept Input </button>
+
+
+    <p> Total Meal :
+        <span id = "totalMeal"></span>
+    </p>
+
+    <script>
+        function totalMeal() {
+        
+        let mp = document.getElementById("mealprice").value;
+        let tip = document.getElementById("tip").value;
+        let sc = document.getElementById ("servicecharge").value;
+        let totalCost =(Number (mp) + Number (tip) + Number (sc/100 * mp));
+        
+        document.getElementById("totalMeal").innerText = totalCost;
+         
+        }
+    </script>
+
+</body>
+</html>
