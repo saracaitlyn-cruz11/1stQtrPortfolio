@@ -66,8 +66,8 @@
     
     .corkboard {
     transform: rotate(180deg);
-    width: 62.5vw;
-    height: 95.33vh;
+    width: 64.5vw;
+    height: 99.33vh;
     position: absolute;
     right: -3.44vw;
     top: 1.11vh;
@@ -115,8 +115,8 @@
     
     .tsotl {
     transform: rotate(-4deg);
-    width: 9.06vw;
-    height: 18.89vh;
+    width: 12vw;
+    height: 12vh;
     position: absolute;
     right: 17.5vw;
     top: 34.44vh;
@@ -124,8 +124,8 @@
     }
     
     .amelie {
-    width: 9.06vw;
-    height: 18.89vh;
+    width: 12vw;
+    height: 12vh;
     position: absolute;
     right: 24.38vw;
     top: 33.33vh;
@@ -134,8 +134,8 @@
     
     .rfad {
     transform: rotate(8deg);
-    width: 9.06vw;
-    height: 18.89vh;
+    width: 12vw;
+    height: 12vh;
     position: absolute;
     right: 25.31vw;
     top: 48.89vh;
@@ -144,11 +144,11 @@
     
     .esotsm {
     transform: rotate(-2deg);
-    width: 9.06vw;
-    height: 18.89vh;
+    width: 12vw;
+    height: 12vh;
     position: absolute;
     right: 17.5vw;
-    top: 52.22vh;
+    top: 70.22vh;
     z-index: 4;
     }
     
@@ -316,7 +316,7 @@
     color: black;
     font-size: 1.56vw;
     position: absolute;
-    right: 58.4vw;
+    right: 54.4vw;
     top: 43vh;
     font-family: "Nanum Pen Script";
     z-index: 4;
@@ -326,7 +326,7 @@
     color: black;
     font-size: 1.3vw;
     position: absolute;
-    right: 34.38vw;
+    right: 32.38vw;
     top: 43.44vh;
     font-family: "Nanum Pen Script";
     z-index: 20;
@@ -647,7 +647,7 @@
     height: 44.44vh;
     position: absolute;
     right: -4.63vw;
-    top: 50vh;
+    top: 30vh;
     z-index: 16;
     }
     
@@ -656,7 +656,7 @@
     height: 17.78vh;
     position: absolute;
     right: 5.13vw;
-    top: 21.11vh;
+    top: 32.11vh;
     z-index: 15;
     }
     
@@ -715,7 +715,7 @@
     font-size: 2.5vw;
     position: absolute;
     right: 60vw;
-    top: 14.44vh;
+    top: 12.44vh;
     font-family: "Ms Madi";
     z-index: 101;
     }
@@ -726,7 +726,7 @@
     font-size: 2.5vw;
     position: absolute;
     right: 5vw;
-    top: 0.56vh;
+    top: 0.3vh;
     font-family: "Ms Madi";
     z-index: 1000;
     }
