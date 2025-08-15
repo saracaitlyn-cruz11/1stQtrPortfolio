@@ -80,7 +80,7 @@
     height: 18.89vh;
     position: absolute;
     right: 10vw;
-    top: 11.11vh;
+    top: 200.11vh;
     z-index: 5;
     }
     
@@ -208,7 +208,7 @@
     }
     
     .always_sleepy {
-    width: 6.25vw;
+    width: 50.25vw;
     height: 11.11vh;
     position: absolute;
     right: 29.63vw;
@@ -297,7 +297,7 @@
     width: 18.75vw;
     height: 47.22vh;
     position: absolute;
-    right: 35.19vw;
+    right: 34.19vw;
     top: -8.89vh;
     z-index: 10;
     }
@@ -316,8 +316,8 @@
     color: black;
     font-size: 1.56vw;
     position: absolute;
-    right: 54.4vw;
-    top: 43vh;
+    right: 56.4vw;
+    top: 40vh;
     font-family: "Nanum Pen Script";
     z-index: 4;
     }
