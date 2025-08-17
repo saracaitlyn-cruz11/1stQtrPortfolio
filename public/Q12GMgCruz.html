@@ -30,8 +30,9 @@
         let tip = document.getElementById("tip").value;
         let sc = document.getElementById ("servicecharge").value;
         let totalCost =(Number (mp) + Number (tip) + Number (sc/100 * mp));
+        let roundedtotalCost = totalCost.toFixed(2);
         
-        document.getElementById("totalMeal").innerText = totalCost;
+        document.getElementById("totalMeal").innerText = roundedtotalCost;
          
         }
     </script>
