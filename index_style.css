@@ -1,0 +1,71 @@
+body 
+{
+      margin: 0; 
+      height: 80vh;
+      background-image: url("https://i.pinimg.com/1200x/b0/d4/e0/b0d4e0f0697ee2b4679e4958da5e49f9.jpg"); 
+      background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center;
+}
+
+.pinyon-script-regular {
+  font-family: "Pinyon Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.tagesschrift-regular {
+  font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+h1 {
+  color: rgb(58, 54, 54);
+  font-size: 5vw;
+   position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Pinyon Script";
+  z-index: 101;
+}
+
+ul {
+  font-family: "Tagesschrift"; 
+  list-style-type: circle;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 101;
+  color:rgb(58, 54, 54);
+}
+
+li {
+  color:rgb(69, 69, 69);
+    font-family: "Tagesschrift"; 
+  margin: 1vh;
+}
+
+ul li a {
+  color: rgb(69, 69, 69);    
+  text-decoration: none;     
+}
+
+ul li a:visited {
+  color: rgb(69, 69, 69);  
+}
+
+ul li a:hover {
+  color: rgb(100, 100, 100);  
+}
+ul li a:active {
+  color: rgb(50, 50, 50);  
+}
