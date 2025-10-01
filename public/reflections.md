@@ -20,9 +20,9 @@
 
 - **Loop Control Structure**: I get the concept of loops structures (while, do while, switch statements), but I need more examples and practice to avoid confusion, especially with, again, propoer syntaxing and accidentally creating infinite loops. I sometimes forget when to use a for loop, a while loop, or a do-while loop. Also, I want to practice using break and continue correctly to better control loops.
 
-- Input Outpu Statements
+- **Input Output Statements**: I sometimes struggled to recall the different output statements we can use in Java. There are many ways to output data, I just need to recall which ones are the most appropriate to use overall. Moreover, I also forgot some ways to get data from HTML to Java for it to be used.
 
-- **String Manipulation**: I know the basic concept of strings, but I need more practice in using string methods and operations. Sometimes I forget which function to use when I want to find, replace, or modify parts of a string. More examples and exercises would help me become more confident in working with text in JavaScript.
+- **String Manipulation**: I know the basic concept of strings, but I need more practice in using string methods and operations. I forget sometimes how to get the data from HTML to Java for it to be used. There are some long syntaxes I cannot recall. More examples and exercises would help me become more confident in working with text in JavaScript.
 
 ### Describe on what will be your plan of action in order to help yourself in understanding further the topics listed on the second items.
 To improve in these areas, I will be studious and review my  notes and sample codes constantly given to us during class to refresh the idea and concepts in my mind.I will also try to practice myself with coding exercises, until I get the hang of it all. And the most effective one would be to read the learning guides in advance, and watching tutorials on youtube and such to see how specific things work (such as calling functions, proper syntax, etc.). And when all fails, of course, we ask for the guidace from Ma'am by asking questions about the topic. This will all be done in order to help myself further understand the topics until I am confident in them.
