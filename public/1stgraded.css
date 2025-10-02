@@ -1,733 +1,350 @@
 .nanum-pen-script-regular {
-    font-family: "Nanum Pen Script", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .ms-madi-regular {
-    font-family: "Ms Madi", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  
-  
-  
-  body {
-      background-color: white;
-      background-image: url("https://i.pinimg.com/1200x/fb/f0/90/fbf090dc9c2587aeee9d25318f134949.jpg");
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-position: center;
-  }
-  
-  .nanum-pen-script-regular {
-    font-family: "Nanum Pen Script", cursive;
-    font-weight: 400;
-    font-style: normal;
-    }
-    
-    .ms-madi-regular {
-    font-family: "Ms Madi", cursive;
-    font-weight: 400;
-    font-style: normal;
-    }
-    
-    .paper-background {
-    width: 40.13vw;
-    height: 76.56vh;
-    position: absolute;
-    right: 58.25vw;
-    top: 17.78vh;
-    z-index: 1;
-    }
-    
-    .tape {
-    transform: rotateY(180deg);
-    mix-blend-mode: darken;
-    width: 20.5vw;
-    height: 36.33vh;
-    position: absolute;
-    right: 80vw;
-    top: 15.11vh;
-    z-index: 2;
-    }
-    
-    .stars {
-    transform: rotate(50deg);
-    width: 9.38vw;
-    height: 16.67vh;
-    position: absolute;
-    right: 52.7vw;
-    top: 76.56vh;
-    z-index: 25;
-    }
-    
-    .corkboard {
-    transform: rotate(180deg);
-    width: 64.5vw;
-    height: 99.33vh;
-    position: absolute;
-    right: -3.44vw;
-    top: 1.11vh;
-    z-index: 2;
-    }
-    
-    .gilmore-girls {
-    transform: rotate(10deg);
-    width: 12.5vw;
-    height: 18.89vh;
-    position: absolute;
-    right: 10vw;
-    top: 200.11vh;
-    z-index: 5;
-    }
-    
-    .himym {
-    width: 12.5vw;
-    height: 18.89vh;
-    position: absolute;
-    right: 19.38vw;
-    top: 11.11vh;
-    z-index: 6;
-    }
-    
-    .friends {
-    transform: rotate(-5deg);
-    width: 12.5vw;
-    height: 18.89vh;
-    position: absolute;
-    right: 30.44vw;
-    top: 13.33vh;
-    z-index: 7;
-    }
-    
-    .tbbt {
-    transform: rotate(6deg);
-    width: 12.5vw;
-    height: 18.89vh;
-    position: absolute;
-    right: 38.75vw;
-    top: 11.11vh;
-    z-index: 5;
-    }
-    
-    .tsotl {
-    transform: rotate(-4deg);
-    width: 12vw;
-    height: 12vh;
-    position: absolute;
-    right: 17.5vw;
-    top: 34.44vh;
-    z-index: 5;
-    }
-    
-    .amelie {
-    width: 12vw;
-    height: 12vh;
-    position: absolute;
-    right: 24.38vw;
-    top: 33.33vh;
-    z-index: 4;
-    }
-    
-    .rfad {
-    transform: rotate(8deg);
-    width: 12vw;
-    height: 12vh;
-    position: absolute;
-    right: 25.31vw;
-    top: 48.89vh;
-    z-index: 3;
-    }
-    
-    .esotsm {
-    transform: rotate(-2deg);
-    width: 12vw;
-    height: 12vh;
-    position: absolute;
-    right: 17.5vw;
-    top: 70.22vh;
-    z-index: 4;
-    }
-    
-   .musicals {
-    transform: rotate(5deg);
-    width: 11.88vw;
-    height: 46.67vh;
-    position: absolute;
-    right: 3.75vw;
-    top: 26.89vh;
-    z-index: 10;
-    }
-    
-    .smiski1 {
-    width: 10vw;
-    height: 18.89vh;
-    position: absolute;
-    right: 44.8vw;
-    top: 74.5vh;
-    z-index: 15;
-    }
-    
-    .snoopy {
-    width: 15.63vw;
-    height: 28.89vh;
-    position: absolute;
-    left: -3.13vw;
-    bottom: -2.22vh;
-    z-index: 15;
-    }
-    
-    .others {
-    width: 18.88vw;
-    height: 48.44vh;
-    position: absolute;
-    right: 33.69vw;
-    top: 32.78vh;
-    z-index: 13;
-    }
-    
-    .pin {
-    width: 1.88vw;
-    height: 4.44vh;
-    position: absolute;
-    right: 9.38vw;
-    top: 11.11vh;
-    z-index: 15;
-    }
-    
-    .fabric_snoopy {
-    width: 6.25vw;
-    height: 12.22vh;
-    position: absolute;
-    right: 13.13vw;
-    top: 80.78vh;
-    z-index: 15;
-    }
-    
-    .always_sleepy {
-    width: 50.25vw;
-    height: 11.11vh;
-    position: absolute;
-    right: 29.63vw;
-    top: 44.44vh;
-    z-index: 30;
-    }
-    
-    .stamp {
-    width: 5.63vw;
-    height: 10vh;
-    position: absolute;
-    right: 46.56vw;
-    top: 32.22vh;
-    z-index: 100;
-    }
-    
-    .personal-header {
-    transform: rotate(5deg);
-    width: 21.88vw;
-    height: 11.11vh;
-    position: absolute;
-    right: 56.25vw;
-    top: 18.89vh;
-    z-index: 100;
-    }
-    
-    .likes-header {
-    transform: rotate(6deg);
-    width: 25vw;
-    height: 11.11vh;
-    position: absolute;
-    right: -5.38vw;
-    top: 1.67vh;
-    z-index: 100;
-    }
-    
-    .header {
-    transform: rotate(-3deg);
-    width: 24.38vw;
-    height: 22.22vh;
-    position: absolute;
-    right: 68.75vw;
-    top: -1.11vh;
-    z-index: 100;
-    }
-    
-    .silverstars {
-    transform: rotate(40deg);
-    width: 3.75vw;
-    height: 8.89vh;
-    position: absolute;
-    right: 48.75vw;
-    top: 23.33vh;
-    z-index: 15;
-    }
-    
-    .longestgoodbye {
-    transform: rotate(-5deg);
-    width: 20.63vw;
-    height: 26.56vh;
-    position: absolute;
-    right: 55vw;
-    top: 68.56vh;
-    z-index: 15;
-    }
-    
-    .bow {
-    width: 21.88vw;
-    height: 44.44vh;
-    position: absolute;
-    right: -4.63vw;
-    top: 18.44vh;
-    z-index: 16;
-    }
-    
-    .musicals_label {
-    width: 10vw;
-    height: 17.78vh;
-    position: absolute;
-    right: 5.13vw;
-    top: 21.11vh;
-    z-index: 15;
-    }
-    
-    .tvshows_label {
-    width: 18.75vw;
-    height: 47.22vh;
-    position: absolute;
-    right: 34.19vw;
-    top: -8.89vh;
-    z-index: 10;
-    }
-    
-    .movies_label {
-    transform: rotate(3deg);
-    width: 10.94vw;
-    height: 19.44vh;
-    position: absolute;
-    right: 14.38vw;
-    top: 24.44vh;
-    z-index: 15;
-    }
-    
-    .personal {
-    color: black;
-    font-size: 1.56vw;
-    position: absolute;
-    right: 56.4vw;
-    top: 40vh;
-    font-family: "Nanum Pen Script";
-    z-index: 4;
-    }
-    
-    .likes {
-    color: black;
-    font-size: 1.3vw;
-    position: absolute;
-    right: 32.38vw;
-    top: 43.44vh;
-    font-family: "Nanum Pen Script";
-    z-index: 20;
-    }
-    
-    h6 {
-    color: black;
-    font-size: 1.88vw;
-    position: absolute;
-    right: 39.38vw;
-    top: 27.78vh;
-    font-family: "Ms Madi";
-    z-index: 21;
-    }
-    
-    h5 {
-    transform: rotate(5deg);
-    color: navy;
-    font-size: 2.5vw;
-    position: absolute;
-    right: 60vw;
-    top: 14.44vh;
-    font-family: "Ms Madi";
-    z-index: 101;
-    }
-    
-    h2 {
-    transform: rotate(5deg);
-    color: navy;
-    font-size: 2.5vw;
-    position: absolute;
-    right: 5vw;
-    top: 0.56vh;
-    font-family: "Ms Madi";
-    z-index: 1000;
-    }
-    
+  font-family: "Nanum Pen Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
-.nanum-pen-script-regular {
-    font-family: "Nanum Pen Script", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .ms-madi-regular {
-    font-family: "Ms Madi", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  
-  
-  
-  body {
-      background-color: white;
-      background-image: url("https://i.pinimg.com/1200x/fb/f0/90/fbf090dc9c2587aeee9d25318f134949.jpg");
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-position: center;
-  }
-  
-  .nanum-pen-script-regular {
-    font-family: "Nanum Pen Script", cursive;
-    font-weight: 400;
-    font-style: normal;
-    }
-    
-    .ms-madi-regular {
-    font-family: "Ms Madi", cursive;
-    font-weight: 400;
-    font-style: normal;
-    }
-    
-    .paper-background {
-    width: 40.13vw;
-    height: 76.56vh;
-    position: absolute;
-    right: 58.25vw;
-    top: 17.78vh;
-    z-index: 1;
-    }
-    
-    .tape {
-    transform: rotateY(180deg);
-    mix-blend-mode: darken;
-    width: 20.5vw;
-    height: 36.33vh;
-    position: absolute;
-    right: 80vw;
-    top: 15.11vh;
-    z-index: 2;
-    }
-    
-    .stars {
-    transform: rotate(50deg);
-    width: 9.38vw;
-    height: 16.67vh;
-    position: absolute;
-    right: 52.7vw;
-    top: 76.56vh;
-    z-index: 25;
-    }
-    
-    .corkboard {
-    transform: rotate(180deg);
-    width: 62.5vw;
-    height: 95.33vh;
-    position: absolute;
-    right: -3.44vw;
-    top: 1.11vh;
-    z-index: 2;
-    }
-    
-    .gilmore-girls {
-    transform: rotate(10deg);
-    width: 12.5vw;
-    height: 18.89vh;
-    position: absolute;
-    right: 10vw;
-    top: 11.11vh;
-    z-index: 5;
-    }
-    
-    .himym {
-    width: 12.5vw;
-    height: 18.89vh;
-    position: absolute;
-    right: 19.38vw;
-    top: 11.11vh;
-    z-index: 6;
-    }
-    
-    .friends {
-    transform: rotate(-5deg);
-    width: 12.5vw;
-    height: 18.89vh;
-    position: absolute;
-    right: 30.44vw;
-    top: 13.33vh;
-    z-index: 7;
-    }
-    
-    .tbbt {
-    transform: rotate(6deg);
-    width: 12.5vw;
-    height: 18.89vh;
-    position: absolute;
-    right: 38.75vw;
-    top: 11.11vh;
-    z-index: 5;
-    }
-    
-    .tsotl {
-    transform: rotate(-4deg);
-    width: 9.06vw;
-    height: 18.89vh;
-    position: absolute;
-    right: 17.5vw;
-    top: 34.44vh;
-    z-index: 5;
-    }
-    
-    .amelie {
-    width: 9.06vw;
-    height: 18.89vh;
-    position: absolute;
-    right: 24.38vw;
-    top: 33.33vh;
-    z-index: 4;
-    }
-    
-    .rfad {
-    transform: rotate(8deg);
-    width: 9.06vw;
-    height: 18.89vh;
-    position: absolute;
-    right: 25.31vw;
-    top: 48.89vh;
-    z-index: 3;
-    }
-    
-    .esotsm {
-    transform: rotate(-2deg);
-    width: 9.06vw;
-    height: 18.89vh;
-    position: absolute;
-    right: 17.5vw;
-    top: 52.22vh;
-    z-index: 4;
-    }
-    
-    .musicals {
-    transform: rotate(5deg);
-    width: 11.88vw;
-    height: 49.67vh;
-    position: absolute;
-    right: 3.75vw;
-    top: 38.89vh;
-    z-index: 10;
-    }
-    
-    .smiski1 {
-    width: 10vw;
-    height: 18.89vh;
-    position: absolute;
-    right: 44.8vw;
-    top: 74.5vh;
-    z-index: 15;
-    }
-    
-    .snoopy {
-    width: 15.63vw;
-    height: 28.89vh;
-    position: absolute;
-    left: -3.13vw;
-    bottom: -2.22vh;
-    z-index: 15;
-    }
-    
-    .others {
-    width: 18.88vw;
-    height: 48.44vh;
-    position: absolute;
-    right: 33.69vw;
-    top: 32.78vh;
-    z-index: 13;
-    }
-    
-    .pin {
-    width: 1.88vw;
-    height: 4.44vh;
-    position: absolute;
-    right: 9.38vw;
-    top: 11.11vh;
-    z-index: 15;
-    }
-    
-    .fabric_snoopy {
-    width: 6.25vw;
-    height: 12.22vh;
-    position: absolute;
-    right: 13.13vw;
-    top:77.78vh;
-    z-index: 15;
-    }
-    
-    .always_sleepy {
-    width: 6.25vw;
-    height: 11.11vh;
-    position: absolute;
-    right: 29.63vw;
-    top: 44.44vh;
-    z-index: 30;
-    }
-    
-    .stamp {
-    width: 5.63vw;
-    height: 10vh;
-    position: absolute;
-    right: 46.56vw;
-    top: 32.22vh;
-    z-index: 100;
-    }
-    
-    .personal-header {
-    transform: rotate(5deg);
-    width: 21.88vw;
-    height: 11.11vh;
-    position: absolute;
-    right: 56.25vw;
-    top: 18.89vh;
-    z-index: 100;
-    }
-    
-    .likes-header {
-    transform: rotate(6deg);
-    width: 25vw;
-    height: 11.11vh;
-    position: absolute;
-    right: -5.38vw;
-    top: 1.67vh;
-    z-index: 100;
-    }
-    
-    .header {
-    transform: rotate(-3deg);
-    width: 24.38vw;
-    height: 22.22vh;
-    position: absolute;
-    right: 68.75vw;
-    top: -1.11vh;
-    z-index: 100;
-    }
-    
-    .silverstars {
-    transform: rotate(40deg);
-    width: 3.75vw;
-    height: 8.89vh;
-    position: absolute;
-    right: 48.75vw;
-    top: 23.33vh;
-    z-index: 15;
-    }
-    
-    .longestgoodbye {
-    transform: rotate(-5deg);
-    width: 20.63vw;
-    height: 26.56vh;
-    position: absolute;
-    right: 55vw;
-    top: 68.56vh;
-    z-index: 15;
-    }
-    
-    .bow {
-    width: 21.88vw;
-    height: 44.44vh;
-    position: absolute;
-    right: -4.63vw;
-    top: 30vh;
-    z-index: 16;
-    }
-    
-    .musicals_label {
-    width: 10vw;
-    height: 17.78vh;
-    position: absolute;
-    right: 5.13vw;
-    top: 32.11vh;
-    z-index: 15;
-    }
-    
-    .tvshows_label {
-    width: 18.75vw;
-    height: 47.22vh;
-    position: absolute;
-    right: 35.19vw;
-    top: -8.89vh;
-    z-index: 10;
-    }
-    
-    .movies_label {
-    transform: rotate(3deg);
-    width: 10.94vw;
-    height: 19.44vh;
-    position: absolute;
-    right: 14.38vw;
-    top: 24.44vh;
-    z-index: 15;
-    }
-    
-    .personal {
-    color: black;
-    font-size: 1.56vw;
-    position: absolute;
-    right: 59.4vw;
-    top: 43vh;
-    font-family: "Nanum Pen Script";
-    z-index: 4;
-    }
-    
-    .likes {
-    color: black;
-    font-size: 1.2vw;
-    position: absolute;
-    right: 35.38vw;
-    top: 43.44vh;
-    font-family: "Nanum Pen Script";
-    z-index: 20;
-    }
-    
-    h6 {
-    color: black;
-    font-size: 1.88vw;
-    position: absolute;
-    right: 39.38vw;
-    top: 27.78vh;
-    font-family: "Ms Madi";
-    z-index: 21;
-    }
-    
-    h5 {
-    transform: rotate(5deg);
-    color: navy;
-    font-size: 2.5vw;
-    position: absolute;
-    right: 60vw;
-    top: 12.44vh;
-    font-family: "Ms Madi";
-    z-index: 101;
-    }
-    
-    h2 {
-    transform: rotate(5deg);
-    color: navy;
-    font-size: 2.5vw;
-    position: absolute;
-    right: 5vw;
-    top: 0.3vh;
-    font-family: "Ms Madi";
-    z-index: 1000;
-    }
-    
+.ms-madi-regular {
+  font-family: "Ms Madi", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: white;
+  background-image: url("https://i.pinimg.com/1200x/fb/f0/90/fbf090dc9c2587aeee9d25318f134949.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.paper-background {
+  width: 40.13vw;
+  height: 76.56vh;
+  position: absolute;
+  right: 58.25vw;
+  top: 17.78vh;
+  z-index: 1;
+}
+
+.tape {
+  transform: rotateY(180deg);
+  mix-blend-mode: darken;
+  width: 20.5vw;
+  height: 36.33vh;
+  position: absolute;
+  right: 80vw;
+  top: 15.11vh;
+  z-index: 2;
+}
+
+.stars {
+  transform: rotate(50deg);
+  width: 9.38vw;
+  height: 16.67vh;
+  position: absolute;
+  right: 52.7vw;
+  top: 76.56vh;
+  z-index: 25;
+}
+
+.corkboard {
+  transform: rotate(180deg);
+  width: 62.5vw;
+  height: 95.33vh;
+  position: absolute;
+  right: -3.44vw;
+  top: 1.11vh;
+  z-index: 2;
+}
+
+.gilmore-girls {
+  transform: rotate(10deg);
+  width: 12.5vw;
+  height: 18.89vh;
+  position: absolute;
+  right: 7vw;
+  top: 14.11vh;
+  z-index: 5;
+}
+
+.himym {
+  width: 12.5vw;
+  height: 18.89vh;
+  position: absolute;
+  right: 17.38vw;
+  top: 14.11vh;
+  z-index: 8;
+}
+
+.friends {
+  transform: rotate(-5deg);
+  width: 12.5vw;
+  height: 18.89vh;
+  position: absolute;
+  right: 27.44vw;
+  top: 14.33vh;
+  z-index: 7;
+}
+
+.tbbt {
+  transform: rotate(6deg);
+  width: 12.5vw;
+  height: 18.89vh;
+  position: absolute;
+  right: 37.75vw;
+  top: 15.11vh;
+  z-index: 5;
+}
+
+.tsotl {
+  transform: rotate(-4deg);
+  width: 10.06vw;
+  height: 19.89vh;
+  position: absolute;
+  right: 17.5vw;
+  top: 42.44vh;
+  z-index: 5;
+}
+
+.amelie {
+  width: 10.06vw;
+  height: 19.89vh;
+  position: absolute;
+  right: 24.38vw;
+  top: 39.33vh;
+  z-index: 4;
+}
+
+.rfad {
+  transform: rotate(8deg);
+  width: 10.06vw;
+  height: 19.89vh;
+  position: absolute;
+  right: 25.31vw;
+  top: 56.89vh;
+  z-index: 3;
+}
+
+.esotsm {
+  transform: rotate(-2deg);
+  width: 10.06vw;
+  height: 19.89vh;
+  position: absolute;
+  right: 16.5vw;
+  top: 60.22vh;
+  z-index: 4;
+}
+
+.musicals {
+  transform: rotate(5deg);
+  width: 11.88vw;
+  height: 49.67vh;
+  position: absolute;
+  right: 3.75vw;
+  top: 38.89vh;
+  z-index: 10;
+}
+
+.smiski1 {
+  width: 10vw;
+  height: 18.89vh;
+  position: absolute;
+  right: 44.8vw;
+  top: 74.5vh;
+  z-index: 15;
+}
+
+.snoopy {
+  width: 15.63vw;
+  height: 28.89vh;
+  position: absolute;
+  left: -3.13vw;
+  bottom: -2.22vh;
+  z-index: 15;
+}
+
+.others {
+  width: 18.88vw;
+  height: 48.44vh;
+  position: absolute;
+  right: 34.2vw;
+  top: 34.78vh;
+  z-index: 13;
+}
+
+.pin {
+  width: 1.88vw;
+  height: 4.44vh;
+  position: absolute;
+  right: 5.38vw;
+  top: 13.11vh;
+  z-index: 15;
+}
+
+.fabric_snoopy {
+  width: 6.25vw;
+  height: 12.22vh;
+  position: absolute;
+  right: 13.13vw;
+  top: 77.78vh;
+  z-index: 15;
+}
+
+.always_sleepy {
+  width: 6.25vw;
+  height: 11.11vh;
+  position: absolute;
+  right: 30.63vw;
+  top: 51.44vh;
+  z-index: 30;
+}
+
+.stamp {
+  width: 5.63vw;
+  height: 10vh;
+  position: absolute;
+  right: 46.56vw;
+  top: 32.22vh;
+  z-index: 100;
+}
+
+.personal-header {
+  transform: rotate(5deg);
+  width: 21.88vw;
+  height: 11.11vh;
+  position: absolute;
+  right: 56.25vw;
+  top: 18.89vh;
+  z-index: 100;
+}
+
+.likes-header {
+  transform: rotate(6deg);
+  width: 25vw;
+  height: 11.11vh;
+  position: absolute;
+  right: -5.38vw;
+  top: 1.67vh;
+  z-index: 100;
+}
+
+.header {
+  transform: rotate(-3deg);
+  width: 24.38vw;
+  height: 22.22vh;
+  position: absolute;
+  right: 68.75vw;
+  top: -1.11vh;
+  z-index: 100;
+}
+
+.silverstars {
+  transform: rotate(40deg);
+  width: 3.75vw;
+  height: 8.89vh;
+  position: absolute;
+  right: 47.75vw;
+  top: 26.33vh;
+  z-index: 15;
+}
+
+.longestgoodbye {
+  transform: rotate(-5deg);
+  width: 20.63vw;
+  height: 26.56vh;
+  position: absolute;
+  right: 55vw;
+  top: 68.56vh;
+  z-index: 15;
+}
+
+.bow {
+  width: 21.88vw;
+  height: 44.44vh;
+  position: absolute;
+  right: -4.63vw;
+  top: 30vh;
+  z-index: 16;
+}
+
+.musicals_label {
+  width: 10vw;
+  height: 17.78vh;
+  position: absolute;
+  right: 5.13vw;
+  top: 32.11vh;
+  z-index: 15;
+}
+
+.tvshows_label {
+  width: 18.75vw;
+  height: 47.22vh;
+  position: absolute;
+  right: 34.5vw;
+  top: -5.89vh;
+  z-index: 10;
+}
+
+.movies_label {
+  transform: rotate(3deg);
+  width: 11.94vw;
+  height: 20.44vh;
+  position: absolute;
+  right: 14.38vw;
+  top: 32vh;
+  z-index: 15;
+}
+
+.personal {
+  color: black;
+  font-size: 1.56vw;
+  position: absolute;
+  right: 59.4vw;
+  top: 40vh;
+  font-family: "Nanum Pen Script";
+  z-index: 4;
+}
+
+.likes {
+  color: black;
+  font-size: 1.2vw;
+  position: absolute;
+  right: 35.38vw;
+  top: 45.44vh;
+  font-family: "Nanum Pen Script";
+  z-index: 20;
+}
+
+h6 {
+  color: black;
+  font-size: 1.88vw;
+  position: absolute;
+  right: 39.38vw;
+  top: 27.78vh;
+  font-family: "Ms Madi";
+  z-index: 21;
+}
+
+h5 {
+  transform: rotate(5deg);
+  color: navy;
+  font-size: 2.5vw;
+  position: absolute;
+  right: 60vw;
+  top: 12.44vh;
+  font-family: "Ms Madi";
+  z-index: 101;
+}
+
+h2 {
+  transform: rotate(5deg);
+  color: navy;
+  font-size: 2.5vw;
+  position: absolute;
+  right: 5vw;
+  top: 0.3vh;
+  font-family: "Ms Madi";
+  z-index: 1000;
+}
